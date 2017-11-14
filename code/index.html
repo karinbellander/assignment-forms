@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment forms</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <form action="http://httpbin.org/anything" method="post">
+
+
+      <div class="">
+        <label for="name">Name</label>
+        <input type="text" id="name"name="Name"/>
+      </div>
+
+      <div class="">
+        <label for="email">Email</label>
+        <input type="email" id="email"name="Email"/>
+      </div>
+
+      <div class="">
+        <label for="password">Password</label>
+        <input type="password" id="password"name="Password"/>
+      </div>
+
+      <div class="">
+        <label for="radio">What do you like?</label>
+          <input type="radio" id="radio" name="Apple"/>Apple
+          <input type="radio" id="radio" name="Orange"/>Orange
+          <input type="radio" id="radio" name="Pineapple"/>Pineapple
+      </div>
+
+      <div class="">
+        <label for="checkbox">What do you prefer?</label>
+          <input type="checkbox" id="checkbox" name="AppleJuice"/>Apple juice
+          <input type="checkbox" id="checkbox" name="OrangeJuice"/>Orange juice
+          <input type="checkbox" id="checkbox" name="PineappleJuice"/>Pineapple juice
+      </div>
+
+      <div class="">
+
+        <button type="submit" name="button">Submit</button>
+
+      </div>
+
+    </form>
+
+  </body>
+</html>

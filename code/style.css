@@ -1,0 +1,65 @@
+html {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  width: 60%;
+  background: lightgrey;
+  border: 2px solid black;
+  margin: auto;
+  padding: 5%;
+  margin-top: 5%;
+
+}
+
+div{
+  /*background: blue;*/
+  margin: 0%;
+  width: 100%;
+  height: auto;
+}
+
+label {
+  display: block;
+  width: 100%;
+  font: 1.5vw helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 1%;
+  margin-top: 3%;
+}
+
+input {
+  border: 0;
+  background-color: none;
+  width: 97.8%;
+  font: 2.5vw helvetica, sans-serif;
+  margin: 0;
+  padding: 1%;
+  padding-left: 1.2%;
+  height: auto;
+
+}
+
+input:focus, label:focus {
+  /* To give a little highlight on active elements */
+  border: none;
+  background-color: blue;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+button {
+  background-color: blue;
+}
