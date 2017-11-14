@@ -4,72 +4,74 @@
     <meta charset="utf-8">
     <title>Assignment forms</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quantico" rel="stylesheet">
   </head>
   <body>
 
-    <form action="http://httpbin.org/anything" method="post">
+
+    <form action="http://httpbin.org/anything" method="post"/>
 
 
-      <div class="">
-        <label for="name">Name</label>
-        <input type="text" id="name"name="Name"/>
+      <h1>Form</h1>
+
+      <div class="name">
+        <label for="name">Name*</label>
+        <input type="text" id="name" name="Name" required/>
       </div>
 
-      <div class="">
-        <label for="email">Email</label>
-        <input type="email" id="email"name="Email"/>
+      <div class="email">
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="Email" required/>
       </div>
 
-      <div class="">
+      <div class="password">
         <label for="password">Password</label>
-        <input type="password" id="password"name="Password"/>
+        <input type="password" id="password" name="Password" minlength="4"/>
       </div>
 
 
-      <div class="radio_checkbox">
 
       <div class="radio">
-        <h2>What do you like?</h2>
-        <label for="radio" class="control control--radio">
-          <input type="radio" name="Apple"/>Apple
-          <div class="control__indicator"></div>
-        </label>
 
-        <label for="radio" class="control control--radio">
-          <input type="radio" name="Orange"/>Orange
-          <div class="control__indicator"></div>
-        </label>
+      <h2>Would you like to subscribe to our newsletter?</h2>
 
-        <label for="radio" class="control control--radio">
-          <input type="radio" name="Pineapple"/>Pineapple
-          <div class="control__indicator"></div>
-        </label>
+      <div class="radio_1">
+      <input type="radio" name="Subscribe" value="Yes" class="radio_label"/>
+      <label for="radio">Yes, I want to subscribe</label>
       </div>
 
-      <div class="checkbox" class="control control--checkbox">
-        <h2>What do you prefer?</h2>
-        <label for="checkbox" class="control">
-          <input type="checkbox" name="AppleJuice"/>Apple juice
-          <div class="control__indicator"></div>
-        </label>
-
-        <label for="checkbox" class="control control--checkbox">
-          <input type="checkbox" name="OrangeJuice"/>Orange juice
-          <div class="control__indicator"></div>
-        </label>
-
-        <label for="checkbox" class="control control--checkbox">
-          <input type="checkbox" name="PineappleJuice"/>Pineapple juice
-          <div class="control__indicator"></div>
-        </label>
+      <div class="radio_2">
+      <input type="radio" name="Subscribe" value="No"class="radio_label"/>
+      <label for="radio">No, thanks.</label>
       </div>
 
       </div>
+
+
+      <div class="checkbox">
+
+      <h2>I'm interested in:</h2>
+
+      <div class="checkbox_1">
+      <input type="checkbox" name="politics" class="checkbox_label"/>
+      <label for="checkbox" class="">Politics</label>
+      </div>
+
+      <div class="checkbox_2">
+      <input type="checkbox" name="fashion" class="checkbox_label"/>
+      <label for="checkbox" class="">Fashion</label>
+      </div>
+
+      <div class="checkbox_3">
+      <input type="checkbox" name="food" class="checkbox_label"/>
+      <label for="checkbox" class="">Food</label>
+      </div>
+
+      </div>
+
 
       <div class="">
-
         <button type="submit" name="button">Submit</button>
-
       </div>
 
     </form>

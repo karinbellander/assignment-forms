@@ -5,16 +5,22 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Quantico', sans-serif;
 }
 
 form {
   width: 60%;
-  background: lightgrey;
+  background: #fcf3d4;
   border: 2px solid black;
   margin: auto;
   padding: 5%;
   margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 10px 10px 5px pink;
+}
 
+h1 {
+  font: 5vw 'Quantico', sans-serif;
 }
 
 div {
@@ -23,36 +29,51 @@ div {
   width: 100%;
   height: auto;
   padding: 0;
+}
 
+.name, .email, .password {
+  margin-top: 2%;
 }
 
 label {
   display: inline-block;
   width: 50%;
-  font: 1.3vw helvetica, sans-serif;
+  font: 1.5vw 'Quantico', sans-serif;
   margin: 0;
   padding: 0;
   text-align: left;
   margin-bottom: 1%;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 input {
   border: 0;
   background-color: none;
   width: 97.8%;
-  font: 2.5vw helvetica, sans-serif;
+  font: 2.5vw 'Quantico', sans-serif;
   margin: 0;
   padding: 1%;
   padding-left: 1.2%;
   height: auto;
+}
 
+.radio_label, .checkbox_label{
+  width: 5%;
+  display: inline-block;
+}
+
+.radio_1, .radio_2 {
+  width: 100%;
+}
+
+.radio_1, .checkbox_1 {
+  margin-top: 2%;
 }
 
 input:focus, label:focus {
   /* To give a little highlight on active elements */
   border: none;
-  background-color: blue;
+  background-color: #419bf9;
 }
 
 input:focus,
@@ -63,30 +84,34 @@ button:focus {
 }
 
 div.radio, .checkbox {
-  width: 50%;
-  display: inline-block;
+  width: 100%;
   margin: 0;
   padding: 0;
-  padding-top: 3%;
+  padding-top: 6%;
   margin: ;
   text-align: left;
   vertical-align: top;
-  background: red;
 }
 
-
-div.radio_checkbox {
-  flex-wrap: wrap;
-  display: flex;
-}
 
 h2 {
   display: inline-block;
-  width: 50%;
+  width: 100%;
   margin: 0;
   padding: 0;
+  font: 2.5vw 'Quantico', sans-serif;
 }
 
 button {
-  background-color: blue;
+  width: 16%;
+  margin-top: 5%;
+  font: 1.3vw 'Quantico', sans-serif;
+  background-color: pink;
+  margin-bottom: 10%;
+  border: 2px solid black;
+
+}
+
+button:hover {
+  background-color: #419bf9;
 }
