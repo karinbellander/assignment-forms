@@ -17,17 +17,19 @@ form {
 
 }
 
-div{
+div {
   /*background: blue;*/
-  margin: 0%;
+  margin: 0;
   width: 100%;
   height: auto;
+  padding: 0;
+
 }
 
 label {
-  display: block;
-  width: 100%;
-  font: 1.5vw helvetica, sans-serif;
+  display: inline-block;
+  width: 50%;
+  font: 1.3vw helvetica, sans-serif;
   margin: 0;
   padding: 0;
   text-align: left;
@@ -58,6 +60,31 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
+}
+
+div.radio, .checkbox {
+  width: 50%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  padding-top: 3%;
+  margin: ;
+  text-align: left;
+  vertical-align: top;
+  background: red;
+}
+
+
+div.radio_checkbox {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+h2 {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  padding: 0;
 }
 
 button {

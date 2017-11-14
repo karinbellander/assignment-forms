@@ -25,18 +25,45 @@
         <input type="password" id="password"name="Password"/>
       </div>
 
-      <div class="">
-        <label for="radio">What do you like?</label>
-          <input type="radio" id="radio" name="Apple"/>Apple
-          <input type="radio" id="radio" name="Orange"/>Orange
-          <input type="radio" id="radio" name="Pineapple"/>Pineapple
+
+      <div class="radio_checkbox">
+
+      <div class="radio">
+        <h2>What do you like?</h2>
+        <label for="radio" class="control control--radio">
+          <input type="radio" name="Apple"/>Apple
+          <div class="control__indicator"></div>
+        </label>
+
+        <label for="radio" class="control control--radio">
+          <input type="radio" name="Orange"/>Orange
+          <div class="control__indicator"></div>
+        </label>
+
+        <label for="radio" class="control control--radio">
+          <input type="radio" name="Pineapple"/>Pineapple
+          <div class="control__indicator"></div>
+        </label>
       </div>
 
-      <div class="">
-        <label for="checkbox">What do you prefer?</label>
-          <input type="checkbox" id="checkbox" name="AppleJuice"/>Apple juice
-          <input type="checkbox" id="checkbox" name="OrangeJuice"/>Orange juice
-          <input type="checkbox" id="checkbox" name="PineappleJuice"/>Pineapple juice
+      <div class="checkbox" class="control control--checkbox">
+        <h2>What do you prefer?</h2>
+        <label for="checkbox" class="control">
+          <input type="checkbox" name="AppleJuice"/>Apple juice
+          <div class="control__indicator"></div>
+        </label>
+
+        <label for="checkbox" class="control control--checkbox">
+          <input type="checkbox" name="OrangeJuice"/>Orange juice
+          <div class="control__indicator"></div>
+        </label>
+
+        <label for="checkbox" class="control control--checkbox">
+          <input type="checkbox" name="PineappleJuice"/>Pineapple juice
+          <div class="control__indicator"></div>
+        </label>
+      </div>
+
       </div>
 
       <div class="">
